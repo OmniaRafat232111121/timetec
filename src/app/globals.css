@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300;500;600&family=Open+Sans:wght@300&display=swap');@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  font-family: 'Changa', 'Open Sans', sans-serif;
+
+}
+
+
+
+.card-with-background {
+  border-bottom: 10px solid #02AFCE;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),
+   url('../assets/images/hero.png'),
+    lightgray 20% / cover no-repeat;
+}
