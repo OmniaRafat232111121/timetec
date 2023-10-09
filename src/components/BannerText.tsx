@@ -13,7 +13,7 @@ const BannerText = ({ title }: Props) => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="text-[6.25rem] md:max-w-[800px] font-bold text-white 
+          className="lg:text-[6.25rem] text-[100px] md:max-w-[800px] font-bold text-white 
           font-Changa text-right"
         >
           {title}

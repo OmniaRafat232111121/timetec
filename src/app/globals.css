@@ -5,6 +5,20 @@ body{
   font-family: 'Changa', 'Open Sans', sans-serif;
 
 }
+.stroke{
+  color: white;
+  text-shadow: -1px -1px 0 rgba(204, 204, 204, 0.5), 1px -1px 0 rgba(204, 204, 204, 0.5), 
+  -1px 1px 0 rgba(204, 204, 204, 0.5), 1px 1px 0 rgba(204, 204, 204, 0.5);
+}
+.box{
+  border: 10px solid rgba(2, 175, 206, 0.20);
+background: #02AFCE;
+}
+.rounded-circle{
+  border-radius: 62.5rem;
+border: 20px solid #F5F5F5;
+background: #FE590F;
+}
 
 
 

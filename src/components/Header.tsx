@@ -27,7 +27,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white shadow-md w-full sticky inset-0">
+    <header className="bg-white shadow-md w-full ">
       {/*top-header*/}
       <div className='lg:px-10 px-4  ' >
         <div className='lg:flex  hidden items-center justify-between gap-6 font-sans'>
@@ -83,7 +83,7 @@ const Header = () => {
         </div>
       </div>
       {/*main-header*/}
-      <nav className="bg-blue p-4">
+      <nav className="bg-blue p-4 ">
   <div className="container mx-auto flex justify-center items-center gap-x-5">
     <ul className="lg:flex space-x-4 font-Changa hidden">
       {navItems.map((item) => (
