@@ -81,9 +81,10 @@ font-bold stroke  '>بعض المشاريع</h2>
   
         
      </div>
-     <div className="grid 2xl:grid-cols-5   grid-cols-2  gap-y-3 md:space-x-10 mt-[10px] px-[100px]">
+     <div className="grid 2xl:grid-cols-5   grid-cols-1  gap-y-3 md:space-x-10 mt-[10px] px-[100px]">
         {categories.map((category) => (
-          <div key={category.name} className=" flex items-center justify-between
+          <div key={category.name} 
+          className=" flex items-center justify-between
            space-y-4  space-x-1 px-5 py-2  gap-10 bg-gray-100 ml-8  rounded ">
             <button
               className={
@@ -107,8 +108,8 @@ font-bold stroke  '>بعض المشاريع</h2>
             className={
              
               selectedCategory === ''
-                ? 'active font-bold w-[301px] h-[100px] text-black bg-gray-100  rounded-md px-2 py-3 hover:text-orange '
-                : ' w-[301px] h-[100px] text-black bg-gray-100 '
+                ? 'active font-bold 2xl:w-[301px] w-[180px] h-[100px] text-black bg-gray-100  rounded-md px-2 py-3 hover:text-orange '
+                : ' 2xl:w-[301px] w-[180px] h-[100px] text-black bg-gray-100 '
             }
             onClick={() => setSelectedCategory('')}
           >

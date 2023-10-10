@@ -7,7 +7,7 @@ import pro from '../assets/images/pro.png';
 import screen from '../assets/images/screen.png'
 const About = () => {
   return (
-    <div className="flex  justify-between  bg-[#F5F5F5] md:px-10 md:py-16 overflow-hidden">
+    <div className="flex  justify-between  bg-[#F5F5F5] md:px-10 md:py-16 overflow-hidden p-[20px]">
       
      <div className='grid 2xl:grid-cols-2  grid-cols-1 2xl:gap-[170px]  '>
      <div className="md:w-[50%] text-right relative px-5 ">
@@ -28,19 +28,10 @@ font-bold stroke  '>عن الشركة</h2>
 
 </p>
 
-<ul className='text-right mt-[100px]'>
-<li className="mt-4 text-[#777]">
-    <div className='flex items-center justify-between  md:space-x-6  space-x-[277px]'>
+<ul className='text-right mt-[50px] p-3'>
 
-<div className=''>
-<Image src={screen} alt="screen" className="bg-blue rounded px-2 py-2" />
 
-</div>
-<p >اصلاح وصيانة الانفرترات والشاشات الصناعية</p>
-    </div>
-  </li>
-
-  <li className="mt-5 text-[#777]">
+  <li className="mt-5 text-[#777] md:text-lg text-md md:w-full w-[600px] font-bold">
    <div className='flex items-center justify-between  md:space-x-16 space-x-[320px] '>
 
 <div className=''>
@@ -50,7 +41,17 @@ font-bold stroke  '>عن الشركة</h2>
 <p>اصلاح وصيانة ال بى ال سى والسيرفو </p>
     </div>
   </li>
-  <li className="mt-5 text-[#777]">
+  <li className="mt-5 text-[#777] md:text-lg text-md md:w-full w-[600px] font-bold">
+   <div className='flex items-center justify-between  md:space-x-16 space-x-[320px] '>
+
+<div className=''>
+<Image src={screen} alt="screen" className="bg-blue rounded px-2 py-2" />
+
+</div>
+<p>اصلاح وصيانة ال بى ال سى والسيرفو </p>
+    </div>
+  </li>
+  <li className="mt-5 text-[#777] md:text-lg text-md md:w-full w-[600px] font-bold">
     <div className='flex items-center justify-between md:space-x-16 space-x-[320px]'>
 
 <div className=''>
@@ -61,20 +62,20 @@ font-bold stroke  '>عن الشركة</h2>
     </div>
   </li>
 </ul>
-<p className="text-[#777] mt-[40px] 2xl:w-[400px] w-full">بإستخدام احدث اجهزة القياس والفحص وفك
+<p className="text-[#777] mt-[40px] 2xl:w-[400px] w-full md:p-0 p-3">بإستخدام احدث اجهزة القياس والفحص وفك
  وتركيب جميع العناصر الاليكترونية بشكل
  احترافى والتعامل الصحيح مع الكروت Multi Layer</p>
 
- <button className='text-orange py-4 md:px-8 px-10 mt-[100px] rounded-md 
+ <button className='text-orange py-4 md:px-8 px-10 md:mt-[50px] mt-[10px] rounded-md 
   border-2 border-orange hover:bg-orange hover:text-white duration-100 
-  translate-x-7  transition-all ease-in-out mb-5 md:w-[200px]  w-[400px] flex items-center justify-center mx-auto'>اعرف المزيد</button>
-
-       </div>
+  translate-x-7  transition-all ease-in-out mb-5 md:w-[200px] 
+   w-[300px] flex items-center justify-center mx-auto'>اعرف المزيد</button>
+   </div>
 
  
  
   
-         <div className="relative md:w-full w-[500px] mx-auto  ">
+         <div className="relative md:w-full w-[400px] mx-auto px-8   ">
            <Image src={power} alt="power" 
            className="object-cover w-full h-full rounded-lg " />
             <div className='relative'>

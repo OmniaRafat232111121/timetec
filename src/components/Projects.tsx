@@ -100,7 +100,7 @@ font-bold stroke  '>بعض المشاريع</h2>
 
         </div>
         <div className='relative'>
-          <Image src={project3} alt="Project 3"  className='w-[400px] mx-auto'/>
+          <Image src={project3} alt="Project 3"  className='w-[400px]  mx-auto'/>
           <div className='bg-white w-[400px] md:px-3 py-6 absolute bottom-0 right-[84px] text-blue border-r-4
            border-orange 2xl:block hidden' >
 مشروع 350 كيلو وات اون جريد  المدينة الصناعية الجديدة      
@@ -135,7 +135,8 @@ font-bold stroke  '>بعض المشاريع</h2>
       
       <button className='text-orange py-4 md:px-8 px-10 mt-[10px]  rounded-md 
   border-2 border-orange hover:bg-orange hover:text-white duration-100 
-  translate-x-7  transition-all ease-in-out mb-5 md:w-[200px]  w-[400px] flex items-center justify-center mx-auto'>اعرف المزيد</button>
+  translate-x-7  transition-all ease-in-out mb-5 md:w-[200px]  w-[300px] flex items-center
+   justify-center mx-auto'>اعرف المزيد</button>
 
 
 

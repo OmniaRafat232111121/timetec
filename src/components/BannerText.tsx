@@ -7,13 +7,14 @@ interface Props {
 
 const BannerText = ({ title }: Props) => {
   return (
-    <div className=" hidden sm:inline-block absolute top-[-170px] left-0 w-full h-full">
+    <div className="  sm:inline-block absolute top-[-170px] left-0 w-full h-full">
       <Container className="flex h-full flex-col items-center  justify-center">
         <motion.h2
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="lg:text-[6.25rem] text-[100px] md:max-w-[800px] font-bold text-white 
+          className="lg:text-[6.25rem] text-[4rem]
+           md:max-w-[800px] font-bold text-white 
           font-Changa text-right"
         >
           {title}
@@ -22,7 +23,8 @@ const BannerText = ({ title }: Props) => {
           initial={{ y: 40, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className="text-lg text-white text-[1.25rem] md:max-w-[760px] text-right  font-Changa"
+          className="text-lg text-white md:text-[1.25rem] text-[14px]
+           md:max-w-[760px] text-right  font-Changa"
         >
           
 تايم تكنولوجى لديها فريق من المهندسين والفنيين المتخصصين في صيانة كافة المهمات
@@ -33,7 +35,8 @@ const BannerText = ({ title }: Props) => {
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7 }}
-          className="flex justify-between   gap-x-[150px] mt-6"
+          className="flex  md:flex-row flex-col justify-between   md:gap-x-[150px]
+          gap-y-[10px] mt-6"
         >
           <button className="px-16 py-4 rounded-md text-white 
            hover:text-white
