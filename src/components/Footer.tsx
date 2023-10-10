@@ -7,7 +7,7 @@ import twitter from '../assets/images/redtw.png';
 
 const Footer = () => {
   return (
-    <div className='px-0 py-10 bg-white   md:px-15 mx-auto flex items-center justify-center '>
+    <div className='px-0 py-10 bg-white mt-[40px]  md:px-15 mx-auto flex items-center justify-center '>
       <div className="grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 space-x-[200px]
      mx-auto">
        

@@ -28,3 +28,23 @@ background: #FE590F;
    url('../assets/images/hero.png'),
     lightgray 20% / cover no-repeat;
 }
+
+
+.slick-next::before{
+  color:#02AFCE !important;
+}
+.slick-prev::before {
+color:#02AFCE !important;
+}
+[dir='rtl'] .slick-prev {
+  right: 125px !important;
+  top:60px;
+  left:1687px !important;
+}
+
+[dir='rtl'] .slick-next {
+  right: 125px !important;
+  left:1637px !important;
+  top:60px;
+
+}
