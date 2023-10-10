@@ -48,3 +48,13 @@ color:#02AFCE !important;
   top:60px;
 
 }
+
+
+.item {
+  grid-column: span 3; /* Adjust the number of columns as needed */
+  grid-row: 3 / span 3; /* Adjust the number of rows as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
