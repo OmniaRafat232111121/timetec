@@ -38,14 +38,14 @@ color:#02AFCE !important;
 }
 [dir='rtl'] .slick-prev {
   right: 125px !important;
-  top:60px;
-  left:1687px !important;
+  left: 1900px !important;
+  top: 67px;
 }
 
 [dir='rtl'] .slick-next {
   right: 125px !important;
-  left:1637px !important;
-  top:60px;
+  left: 1865px !important;
+  top: 67px;
 
 }
 

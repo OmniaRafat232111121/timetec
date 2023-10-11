@@ -70,7 +70,7 @@ font-bold stroke  '>
         
      </div>
      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:p-4  px-8 py-4
-     mx-auto items-center justify-center ">
+     mx-auto items-center justify-center  ">
       {cardData.map((card, index) => (
         <Card key={index} title={card.title} imageSrc={card.imageSrc} />
       ))}

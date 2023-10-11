@@ -38,27 +38,7 @@ const Projects = () => {
 
     <div className='md:w-full  overflow-hidden h-[800px] bg-gray-100 '>
       <div className="relative w-full h-[400px] ">
-        {/* <div className="absolute inset-0">
-          <Image src={project} alt="background image" layout="fill" objectFit="cover" />
-        </div> */}
-
-        {/* <div className="text-center mx-auto relative px-5 mt-10 ">
-          <h2 className="text-7xl font-bold  mx-auto  stroke absolute top-2 left-[700px]">بعض المشاريع</h2>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="90"
-            height="100"
-            viewBox="0 0 102 122"
-            fill="none"
-            className=" relative left-[-781px]"
-          >
-            <path d="M48 0H102L62 122H0L48 0Z" fill="#FE590F" />
-          </svg>
-
-          <h3 className="text-[#02AFCE] absolute top-[40px] left-[800px] text-4xl font-bold">
-            بعض المشاريع
-          </h3>
-        </div> */}
+    
  <div className=" text-center  relative px-5 ">
 <h2 className='text-7xl 
 font-bold stroke  '>بعض المشاريع</h2>
@@ -91,41 +71,51 @@ font-bold stroke  '>بعض المشاريع</h2>
         <div className='relative'>
           <Image src={project2} alt="Project 2"  className='w-[400px] mx-auto' />
           <div className='bg-white 
-          w-[400px] md:px-3 py-6 absolute bottom-0 right-[84px] 
+          2xl:w-[401px] md:px-3 py-6 absolute bottom-0 right-[119px] 
            text-blue border-r-4
            border-orange
-           2xl:block hidden' >
-مشروع الحفار مع شركة طلعت مصطفى  للانشاءات        
+           2xl:block hidden text-right' >
+مشرررروع الحفار مع شركة طلعت مصطفى  للانشاءات        
    </div>
 
         </div>
         <div className='relative'>
           <Image src={project3} alt="Project 3"  className='w-[400px]  mx-auto'/>
-          <div className='bg-white w-[400px] md:px-3 py-6 absolute bottom-0 right-[84px] text-blue border-r-4
-           border-orange 2xl:block hidden' >
+          <div className='bg-white 
+          2xl:w-[401px] md:px-3 py-6 absolute bottom-0 right-[119px] 
+           text-blue border-r-4
+           border-orange
+           2xl:block hidden text-right' >
 مشروع 350 كيلو وات اون جريد  المدينة الصناعية الجديدة      
     </div>
         </div>
         <div className='relative'>
           <Image src={project2} alt="Project 2"  className='w-[400px] mx-auto' />
-          <div className='bg-white w-[400px] 
-           md:px-3 py-6 absolute bottom-0  text-blue border-r-4 right-[84px]
-           border-orange 2xl:block hidden' >
+          <div className='bg-white 
+          2xl:w-[401px] md:px-3 py-6 absolute bottom-0 right-[119px] 
+           text-blue border-r-4
+           border-orange
+           2xl:block hidden text-right' >
 مشروع الحفار مع شركة طلعت مصطفى  للانشاءات
           </div>
         </div>
         <div className='relative'>
           <Image src={project1} alt="Project 2"  className='w-[400px] mx-auto' />
-          <div className='bg-white w-[400px]  md:px-3 py-6 absolute bottom-0 right-[84px]  text-blue border-r-4
-           border-orange 2xl:block hidden' >
+          <div className='bg-white 
+          2xl:w-[401px] md:px-3 py-6 absolute bottom-0 right-[119px] 
+           text-blue border-r-4
+           border-orange
+           2xl:block hidden text-right' >
 مشروع الحفار مع شركة طلعت مصطفى  للانشاءات 
           </div>
         </div>
         <div className='relative'>
           <Image src={project3} alt="Project 2"  className='w-[400px] mx-auto' />
-          <div className='bg-white w-[400px]  md:px-3 py-6 absolute bottom-0 
+          <div className='bg-white 
+          2xl:w-[401px] md:px-3 py-6 absolute bottom-0 right-[119px] 
            text-blue border-r-4
-           border-orange 2xl:block hidden right-[84px]' >
+           border-orange
+           2xl:block hidden text-right' >
 مشروع الحفار مع شركة طلعت مصطفى  للانشاءات 
           </div>
         </div>
