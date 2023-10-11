@@ -13,9 +13,9 @@ const BannerText = ({ title }: Props) => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="lg:text-[6.25rem] text-[4rem]
+          className="lg:text-[6.25rem] text-[4rem] md:mt-0 mt-[50px]
            md:max-w-[800px] font-bold text-white 
-          font-Changa text-right"
+          font-Changa text-right "
         >
           {title}
         </motion.h2>
