@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Acheviment from "@/components/Acheviment";
 import Clients from "@/components/Clients";
 import Hero from "@/components/Hero";
 import Products from "@/components/Products";
@@ -13,8 +14,9 @@ export default function Home() {
     <About/>
     <Services/>
     <Projects/>
-  <Products/>
+    <Products/>
     <Clients/>
+    <Acheviment/>
 
   
    </main>

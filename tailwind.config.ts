@@ -20,6 +20,9 @@ const config: Config = {
         orange:'#FE590F'
 
       },
+      boxShadow: {
+        '3xl': ' 0 25px 50px -12px rgba(254, 89, 15, 0.3)',
+      },
       backgroundImage: {
         'hero-pattern': "url('/src/assets/images/rect.png')",
       }
