@@ -26,10 +26,9 @@ const BannerText = ({ title }: Props) => {
           className="text-lg text-white md:text-[1.25rem] text-[14px]
            md:max-w-[760px] text-right  font-Changa"
         >
-          
-تايم تكنولوجى لديها فريق من المهندسين والفنيين المتخصصين في صيانة كافة المهمات
-التي يتم توريدها بمعرفة الشركة كما أن لديها إمكانية تقديم الخدمات المتكاملة بموقع العميل
-
+          تايم تكنولوجى لديها فريق من المهندسين والفنيين المتخصصين في صيانة كافة
+          المهمات التي يتم توريدها بمعرفة الشركة كما أن لديها إمكانية تقديم
+          الخدمات المتكاملة بموقع العميل
         </motion.p>
         <motion.div
           initial={{ y: 50, opacity: 0 }}
@@ -38,17 +37,20 @@ const BannerText = ({ title }: Props) => {
           className="flex  md:flex-row flex-col justify-between   md:gap-x-[150px]
           gap-y-[10px] mt-6"
         >
-          <button className="px-16 py-4 rounded-md text-white 
+          <button
+            className="px-16 py-4 rounded-md text-white 
            hover:text-white
-           bg-orange hover:bg-blue duration-200 text-sm uppercase font-semibold">
-          خدماتنا
+           bg-orange hover:bg-blue duration-200 text-sm uppercase font-semibold"
+          >
+            خدماتنا
           </button>
-          <button className=" px-16 py-4 rounded-md text-white bg-blue hover:bg-orange
+          <button
+            className=" px-16 py-4 rounded-md text-white bg-blue hover:bg-orange
           hover:text-white
-           duration-200 text-sm uppercase font-semibold">
+           duration-200 text-sm uppercase font-semibold"
+          >
             تواصل معنا
           </button>
-          
         </motion.div>
       </Container>
     </div>

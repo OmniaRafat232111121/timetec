@@ -1,4 +1,5 @@
 import Acheviment from '@/components/Acheviment'
+import Certifications from '@/components/Certifications'
 import Clients from '@/components/Clients'
 import Info from '@/components/Info'
 import Team from '@/components/Team'
@@ -10,6 +11,8 @@ const page = () => {
       <Info/>
       <Team/>
       <Clients/>
+      <Certifications/>
+
       <Acheviment/>
     </div>
   )

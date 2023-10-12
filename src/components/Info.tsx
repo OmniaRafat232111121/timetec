@@ -22,10 +22,10 @@ const cardData = [
 ];
 const Info = () => {
   return (
-    <div className='relative font-Changa  px-4 py-8  mb-10' >
- <div className=" p-10 absolute bg-no-repeat bg-center  ">
+    <div className='relative font-Changa  px-4 py-8  mb-10 z-[-10]' >
+    <div className=" p-10 absolute bg-no-repeat bg-center  ">
     <Image src={about} alt="about" />
-  </div>
+    </div>
     <div className='md:w-full  overflow-hidden h-[500px] bg-white p-4 '>
     <div className="relative w-full  ">
 <div className=" relative ">
@@ -37,6 +37,7 @@ const Info = () => {
       
     </div>
     </div>
+
     <div className='md:w-full  overflow-hidden   '>
     <div className="relative w-full h-[400px]  ">
 <div className=" text-center  relative px-5 ">

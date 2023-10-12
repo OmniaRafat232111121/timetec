@@ -2,8 +2,6 @@
 import React from "react"; // Make sure to import React
 import Slider from "react-slick";
 import bannerone from "../assets/images/hero.png";
-import bannertwo from "../assets/images/hero.png";
-import bannerthree from "../assets/images/hero.png";
 import { PiCaretLeftLight, PiCaretRightLight } from "react-icons/pi";
 import Image from "next/image";
 import BannerText from "./BannerText";
