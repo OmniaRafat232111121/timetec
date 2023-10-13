@@ -34,23 +34,28 @@ const BannerText = ({ title }: Props) => {
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7 }}
-          className="flex  md:flex-row flex-col justify-between   md:gap-x-[150px]
+          className="flex  md:flex-row flex-col justify-between group-hover   md:gap-x-[150px]
           gap-y-[10px] mt-6"
         >
-          <button
+          <motion.button
+            whileHover={{ scale: 1.1 }} 
+
             className="px-16 py-4 rounded-md text-white 
            hover:text-white
            bg-orange hover:bg-blue duration-200 text-sm uppercase font-semibold"
           >
             خدماتنا
-          </button>
-          <button
-            className=" px-16 py-4 rounded-md text-white bg-blue hover:bg-orange
-          hover:text-white
+          </motion.button>
+          <motion.button
+            whileHover={{ scale: 1.1 }} 
+
+            className=" px-16 py-4 rounded-md text-white bg-blue
+             hover:bg-orange
+          hover:text-white cursor-pointer
            duration-200 text-sm uppercase font-semibold"
           >
             تواصل معنا
-          </button>
+          </motion.button>
         </motion.div>
       </Container>
     </div>

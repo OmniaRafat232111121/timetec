@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html dir='rtl'>
-      <body className={inter.className}>
+      <body suppressHydrationWarning={true}>
         <Header/>
         <main >
         {children}  
