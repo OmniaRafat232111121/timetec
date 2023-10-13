@@ -22,7 +22,7 @@ const Header = () => {
     { path: '/about', name: 'من نحن' },
     { path: '/services', name: 'الخدمات' },
     { path: '/products', name: 'المنتجات' },
-    { path: '/works', name: 'اعمالنا' },
+    { path: '/work', name: 'اعمالنا' },
     { path: '/contact', name: 'تواصل معنا' },
   ];
 
