@@ -4,7 +4,9 @@ import { data } from '../../../../data';
 
 const page = () => {
   return (
-    <div>
+    <div
+      className="relative  "
+    >
        <div className=" text-center  relative px-5 ">
         <h2
           className="text-7xl 
@@ -32,10 +34,10 @@ font-bold stroke  "
           </h3>
         </div>
       </div>
-       <div className="container mx-auto py-6">
+       <div className="container mx-auto py-6 ">
       <div className="grid gap-[100px] grid-cols-1 md:grid-cols-2 ">
         {data.map((card, index) => (
-          <CCard key={index} title={card.title} subobjects={card.subobjects} />
+          <CCard key={index}  subobjects={card.subobjects} />
         ))}
       </div>
     </div>

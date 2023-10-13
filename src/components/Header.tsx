@@ -109,7 +109,7 @@ const Header = () => {
           <Image src={logo} alt="logo" className='w-[100px] h-auto'/>
         </div>
 <div
-  className={`bg-orange mt-16 py-7 px-4 space-y-4 ${
+  className={`bg-orange mt-16 py-7 px-4 space-y-4  z-10 ${
     menuOpen ? 'block fixed top-[30px] left-0 right-0' : 'hidden'
   }`}
 >

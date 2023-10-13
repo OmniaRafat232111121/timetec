@@ -1,7 +1,7 @@
-import work1 from './src/assets/images/work1.png'
-import work2 from './src/assets/images/work2.png'
-import work3 from './src/assets/images/work3.png'
-import work4 from './src/assets/images/work4.png'
+import work1 from './src/assets/images/work1.png';
+import work2 from './src/assets/images/work2.png';
+import work3 from './src/assets/images/work3.png';
+import work4 from './src/assets/images/work4.png';
 
 export const data = [
   {
@@ -20,22 +20,22 @@ export const data = [
     title: 'Electronics Card',
     subobjects: [
       {
-        title: 'صيانة لكافة الكروت والاجهزة الاليكترونية المستخدمة فى مجال الصناعة مثل:',
-        image: work2,
+        title: 'صيانة لكافة الكروت والأجهزة الإلكترونية المستخدمة في مجال الصناعة مثل:',
+        image: work2, // Change to a string if this is an image source URL
         description: `
         PLC
-        -AC and drives
-        -Iterface
-        -HMI
-        -Servo Drive`
+        - AC and drives
+        - Interface
+        - HMI
+        - Servo Drive`
       },
     ],
   },
   {
     subobjects: [
       {
-        title: ' تصميم وتوريد وتركيب وصيانة لوحات الجهد المنخفض بجميع أنواعها علي سبيل المثال :',
-        image: work3,
+        title: ' تصميم وتوريد وتركيب وصيانة لوحات الجهد المنخفض بجميع أنواعها على سبيل المثال :',
+        image: work3, // Change to a string if this is an image source URL
         description: `
         لوحات المناورة Two out of three
         - لوحات التوزيع Distribution Panel up to 6000A
@@ -46,14 +46,14 @@ export const data = [
   {
     subobjects: [
       {
-        title: ' الدعم الفنى والتدريب',
-        image: work4,
+        title: ' الدعم الفني والتدريب',
+        image: work4, // Change to a string if this is an image source URL
         description: `PLC
-        -Different controller technique
-        -Control- Drive 
-        -HMI
-        -Different controller technique
-        Scada`
+        - Different controller technique
+        - Control- Drive 
+        - HMI
+        - Different controller technique
+        - Scada`
       },
     ],
   },
