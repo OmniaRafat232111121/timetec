@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -9,25 +9,32 @@ const config: Config = {
   theme: {
     fontFamily: {
       'sans': ['Open Sans', 'sans-serif'],
-      'Changa': ['Changa', 'sans-serif']
+      'Changa': ['Changa', 'sans-serif'],
     },
     extend: {
       backgroundColor: {
         'custom': 'rgba(2, 175, 206, 0.4)',
       },
-      colors:{
-        blue:'#02AFCE',
-        orange:'#FE590F'
-
+      colors: {
+        blue: '#02AFCE',
+        orange: '#FE590F',
       },
       boxShadow: {
-        '3xl': ' 0 25px 50px -12px rgba(254, 89, 15, 0.3)',
+        '3xl': '0 25px 50px -12px rgba(254, 89, 15, 0.3)',
       },
-      backgroundImage: {
-        'hero-pattern': "url('/src/assets/images/rect.png')",
-      }
+      extend: {
+        backgroundImage: ({theme}:any) => ({
+          'hero': "url('/servobackground.png')",
+        }),
+      },
+    },
+    variants: {
+      extend: {
+        backgroundImage: ['hover'],
+      },
     },
   },
   plugins: [],
-}
-export default config
+};
+
+export default config;

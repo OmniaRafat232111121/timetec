@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@300;500;600&family=Open+Sans:wght@300&display=swap');@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 body{
   font-family: 'Changa', 'Open Sans', sans-serif;
 
@@ -61,3 +63,44 @@ color:#02AFCE !important;
 
 
 /* Style for non-active dots */
+
+
+.bg-hero {
+  background-image: url('/servbackground.png');
+}
+
+
+.slick-dots {
+  position: relative !important;
+  bottom: 630px !important;
+  right: 50px !important;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.slick-dots li {
+  margin: 0 5px; /* Adjust the spacing between dots */
+}
+
+.slick-dots button {
+  width: 10px; /* Adjust the width of each dot */
+  height: 10px; /* Adjust the height of each dot */
+  border-radius: 50%;
+  background-color: #02AFCE; /* Change the background color */
+  transition: background-color 0.3s ease; /* Add a transition effect */
+  cursor: pointer;
+}
+
+.slick-dots button:hover {
+  background-color: #FE590F; /* Change the background color on hover */
+}
+
+
+.slick-dots button:active {
+ background-color: #FE590F; /* Change the background color on hover */
+}
+
+

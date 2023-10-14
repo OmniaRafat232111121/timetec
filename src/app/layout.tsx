@@ -5,6 +5,10 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// import 'swiper/modules/navigation/navigation.scss';
+// import 'swiper/modules/pagination/pagination.scss';
+// import 'swiper/modules/scrollbar/scrollbar.scss';
+
 import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] })
 
