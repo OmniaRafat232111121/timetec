@@ -96,7 +96,7 @@ font-bold stroke  "
           </button>
         </div>
 
-        <div className="relative md:w-full w-[400px] mx-auto px-8   ">
+        <div className="relative md:w-full w-[400px] mx-auto px-8    ">
           <Image
             src={power}
             alt="power"
